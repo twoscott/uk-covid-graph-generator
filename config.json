@@ -1,0 +1,19 @@
+{
+    "browser": {
+        "headless": true
+    },
+    "screenshot": {
+        "width": 1920,
+        "height": 1080,
+        "format": "png",
+        "quality": 100,
+        "directory": "./graphs"
+    },
+    "graph": {
+        "lineWidth": 2,
+        "pointShape": "circle",
+        "pointSize": 4,
+        "trendlines": true,
+        "maximised": false
+    }
+}

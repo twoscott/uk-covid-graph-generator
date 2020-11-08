@@ -1,0 +1,19 @@
+{
+    "validNations": [
+        "England",
+        "Scotland",
+        "Wales",
+        "Northern Ireland"
+    ],
+    "validRegions": [
+        "London",
+        "North East",
+        "North West",
+        "Yorkshire and the Humber",
+        "East Midlands",
+        "West Midlands",
+        "East of England",
+        "South East",
+        "South West"
+    ]
+}
