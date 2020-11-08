@@ -21,7 +21,7 @@ export function getUserOptions() {
     let dataType = "cases";
     let countType = "new";
     let areaType = "overview";
-    let timeframe = "alltime";
+    let timeframe = 0;
 
     dataType = getDataType();
     countType = getCountType();

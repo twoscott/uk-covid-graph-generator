@@ -16,7 +16,7 @@ async function main() {
 
         if (covidData.length > 0) {
             let rows = table.generateRows(covidData, userOptions.areaNames);
-            if (userOptions.timeframe) {
+            if (userOptions.timeframe > 0) {
                 rows = rows.slice(rows.length - userOptions.timeframe);
             }
             
