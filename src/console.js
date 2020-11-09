@@ -116,7 +116,7 @@ function getAreaType() {
 
 /**
  * Prompts user to enter nation names
- * @returns {string} Nation names
+ * @returns {Array.<string>} Nation names
  */
 function getNationNames() {
     let inputs;
@@ -141,7 +141,7 @@ function getNationNames() {
 
 /**
  * Prompts user to enter region names
- * @returns {string} Region names
+ * @returns {Array.<string>} Region names
  */
 function getRegionNames() {
     let inputs;
